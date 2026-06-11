@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknode_vue_spa=self.webpackChunknode_vue_spa||[]).push([[201],{5058:function(d,r,e){e.r(r),e.d(r,{default:function(){return v}});var t=function(){var n=this,o=n.$createElement,c=n._self._c||o;return c("router-view",{key:n.$route.path})},u=[],a=e(6828),s={},l=(0,a.A)(s,t,u,!1,null,null,null),v=l.exports}}]);

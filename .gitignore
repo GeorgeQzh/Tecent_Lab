@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+local_settings.py
+dev.env
+.env
+
+# Django / BlueKing local artifacts
+staticfiles/
+logs/
+*.log
+*.sqlite3
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Archives and temporary files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+~$*

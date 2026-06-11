@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+
+import os
+
+
+JOB_BK_BIZ_ID = int(os.getenv("JOB_BK_BIZ_ID", "3"))
+MAX_ATTEMPTS = int(os.getenv("JOB_RESULT_MAX_ATTEMPTS", "30"))
+JOB_RESULT_ATTEMPTS_INTERVAL = float(os.getenv("JOB_RESULT_ATTEMPTS_INTERVAL", "1"))
+BK_JOB_HOST = os.getenv("BKPAAS_JOB_URL", "https://job.ce.bktencent.com")
+
+WAITING_CODE = 2
+SUCCESS_CODE = 3
+WEB_SUCCESS_CODE = 0
+
+SEARCH_FILE_PLAN_ID = int(os.getenv("SEARCH_FILE_PLAN_ID", "1000451"))
+BACKUP_FILE_PLAN_ID = int(os.getenv("BACKUP_FILE_PLAN_ID", "1000452"))
